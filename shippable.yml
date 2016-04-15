@@ -36,6 +36,7 @@ integrations:
       recipients: 
         - shiphitchcock1@gmail.com
         - varsha@shippable.com
+        - amalfra@gmail.com
       on_start: always
       on_success: always
       on_failure: always
