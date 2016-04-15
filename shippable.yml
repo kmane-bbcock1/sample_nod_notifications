@@ -15,7 +15,6 @@ build:
     - node --version
     #- sleep 2m
     #- cs ps
-    - fail this build
     
 integrations:
   notifications:
