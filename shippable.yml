@@ -53,3 +53,10 @@ integrations:
       on_success: always
       on_failure: always
       on_pull_request: always
+      
+    - integrationName: event-triggerp1
+      type: webhook
+      payload:
+        - tag=$BUILD_NUMBER
+      on_success: always
+      on_failure: always
